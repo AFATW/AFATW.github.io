@@ -34,23 +34,25 @@ button{
     height: 45;
     width: 85;
     margin: 10px;
-    background-color: rgb(0, 157, 255);
+    background-color: #60ff8d;
     color: fff;
-    border-radius: 8px;
     cursor: pointer;
     border: transparent;
     font-size: large;
+    justify-content: space-between;
+    margin-top: -245;
+    margin-right: -80;
     transition: 0.5s;
 }
 button:hover{
-    background-color: rgb(21, 128, 222);
-    transform: scale(0.95);
+
 }
 .threelines{
     margin-top: -1120px;
     transform: scale(0.1);
     margin-left: -700;
     cursor: pointer;
+    transition: 0.5s;
 }
 .merch{
     transform: scale(0.53);
@@ -60,4 +62,8 @@ button:hover{
 .merch:hover{
     transform: scale(0.6);
     margin: -100px -210;
+}
+.threelines:hover{
+    transform: scale(0.11);
+    margin-left: -690;
 }
