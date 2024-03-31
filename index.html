@@ -1,0 +1,82 @@
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Sunshine Sunday Power Generation</title>
+        <meta content="Sunshine Sunday Power Generation" property="og:title" />
+        <meta content="The SSPG app is an App for the Discord Server Sunshine Sunday Power Generation!" property="og:description" />
+        <meta content="https://afatw.github.io" property="og:url" />
+        <meta content="#FF69B4" data-react-helmet="true" name="theme-color" />
+        <meta name="twitter:card" content="./SSPGCard">
+        <link rel="icon" type="image/x-icon" href="electron.icns">
+    </head>
+    <body>
+        <div class="Navigation">
+            <h1>SSPG</h1>
+        </div>
+        <div class="banner">
+            <h1>Sunshine Sunday Power Generation</h1>
+            <p>An app for the Discord Server, SSPG.</p>
+        </div>
+        <div class="Space">
+            <h1>What are you waiting for? go ahead and install it!</h1>
+            <div class="Clear">
+                <a href="./SSPG-darwin-x64/" download><button type="button">Mac</button></a>
+                <a href="" download><button type="button">Windows (Out of Order)</button></a>
+                <a href="" download><button type="button">IOS (Out of Order)</button></a>
+            </div>
+        </div>
+    </body>
+</html>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .Navigation h1{
+        color: fff;
+        background-color: rgb(40, 40, 40);
+        width: 100%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: xxx-large;
+    }
+    .banner{
+        height: 80vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/wild-blue-bonnet-flower-field-at-sunset-chung-hu.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .banner h1, p{
+        position: relative;
+        color: fff;
+        width: 100%;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        top: 25vh;
+    }
+    .Space{
+        height: 80vh;
+    }
+    .Space h1{
+        width: 100%;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .Clear button{
+        position: relative;
+        height: 7vh;
+        width: 30vh;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        background-color: rgb(40, 40, 40);
+        color: fff;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        left: 28%;
+    }
+    .Clear{
+        width: 100%;
+    }
+</style>
